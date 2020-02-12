@@ -3,10 +3,15 @@ import PageTitle from './PageTitle';
 import SearchInput from './SearchInput';
 import NavLinks from './NavLinks';
 import { Navbar } from 'react-bootstrap';
-// import BrandIcon from './BrandIcon';
+import workoutVeggies from './../images/workoutVeggies.gif';
+import workoutVeggies2 from './../images/workoutVeggies2.gif';
 
 function Header(props){
-
+  var imageFloat = {
+    position: "absolute",
+    float: "right",
+    right: "0"
+  }
   return(
     <div>
       <Navbar expand="lg">
@@ -22,10 +27,14 @@ function Header(props){
             .btn {
               color: black;
             }
+
+            .navImage {
+              width: 120px;
+            }
             `}
           }
         }</style>
-        <Navbar.Brand href="#home"><PageTitle/></Navbar.Brand>
+      <Navbar.Brand href="#home"><PageTitle/> <img className="navImage" src={workoutVeggies}></img> <img className="navImage" style={imageFloat} src={workoutVeggies2}></img>  </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <NavLinks/>

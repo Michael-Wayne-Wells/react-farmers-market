@@ -19,6 +19,16 @@ function Schedule(props){
                 td {
                   width: 25%;
                 }
+
+                td:nth-child(1) {
+                  background: #54575c;
+                  width: 18%;
+                  color: whitesmoke;
+                  text-shadow: 1.5px 1.5x black;
+                  font-size: 20px;
+                  font-weight: bold;
+                }
+
                 th {
                   border-bottom: 2px solid black;
                 }
