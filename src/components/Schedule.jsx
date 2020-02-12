@@ -27,6 +27,7 @@ function Schedule(props){
                   text-shadow: 1.5px 1.5x black;
                   font-size: 20px;
                   font-weight: bold;
+                  font-family: 'bangers';
                 }
 
                 th {

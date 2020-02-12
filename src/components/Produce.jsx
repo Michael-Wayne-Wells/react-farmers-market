@@ -13,7 +13,7 @@ function Produce(props){
     margin: "0 auto",
     marginBottom: "20px",
     width: "100%",
-    fontFamily: "'Prata', serif"
+    fontFamily: 'bangers'
   }
 
   var monthTitle = {

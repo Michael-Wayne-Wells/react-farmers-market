@@ -18,11 +18,11 @@ function Header(props){
         <style jsx>{`
 
             .navbar {
-              font-family: 'Montserrat Alternates', sans-serif;
+              font-family: 'bangers';
               background-color: rgba(167, 195, 180, 1);
             }
             .navbar h1 {
-              font-family: 'Prata', serif;
+              font-family: 'Monoton', cursive;
             }
             .btn {
               color: black;
